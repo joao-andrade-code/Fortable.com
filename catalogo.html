@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo de Jogos de Tabuleiro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="catalogo.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0 text-black">Fortable.com</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link fw-bold py-1 px-2 text-black" href="cover.html">Fortable</a>
+              <a class="nav-link fw-bold py-1 px-2 text-black" href="index.html">Home</a>
+              <a class="nav-link fw-bold py-1 px-2 text-black" href="alugar.html">Alugar</a>
+              <a class="nav-link fw-bold py-1 px-2 text-black" href="retirar.html">Retirar</a>
+              <a class="nav-link fw-bold py-1 px-2 text-black active" href="catalogo.html">Catálogo</a>
+
+            </nav>
+          </div>
+        </header>
+      </div>
+
+    <div class="container mt-4">
+        <h2 class="text-center text-white">Catálogo de jogos</h2>
+        <div class="row">
+            <!-- Jogo 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="detetive.jpg" class="card-img-top" alt="Jogo 1" onmouseover="playAudio('audio1')" onmouseout="pauseAudio('audio1')">
+                    <div class="card-body">
+                        <h5 class="card-title">Detetive</h5>
+                        <p class="card-text lead">Resolva mistérios e descubra quem é o culpado neste jogo clássico de investigação.</p>
+                    </div>
+                </div>
+                <audio id="audio1">
+                    <source src="audios/Detetive.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            
+            <!-- Jogo 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bancoimobiliario.jpg" class="card-img-top" alt="Jogo 2" onmouseover="playAudio('audio2')" onmouseout="pauseAudio('audio2')">
+                    <div class="card-body">
+                        <h5 class="card-title">Banco imobiliário</h5>
+                        <p class="card-text lead">Compre, venda e negocie propriedades para se tornar o magnata da cidade.</p>
+                    </div>
+                </div>
+                <audio id="audio2">
+                    <source src="audios/BI.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pulamacaco.jpg" class="card-img-top" alt="Jogo 3" onmouseover="playAudio('audio3')" onmouseout="pauseAudio('audio3')">
+                    <div class="card-body">
+                        <h5 class="card-title">Pula Macaco</h5>
+                        <p class="card-text lead">Lance os macacos e tente acertar a árvore neste divertido jogo infantil.</p>
+                    </div>
+                </div>
+                <audio id="audio3">
+                    <source src="audios/Pulamacaco.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="war 2.jpg" class="card-img-top" alt="Jogo 4" onmouseover="playAudio('audio4')" onmouseout="pauseAudio('audio4')">
+                    <div class="card-body">
+                        <h5 class="card-title">War 2</h5>
+                        <p class="card-text lead">Conquiste territórios e use estratégia para dominar o mundo.</p>
+                    </div>
+                </div>
+                <audio id="audio4">
+                    <source src="audios/war2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="cainaocai.jpg" class="card-img-top" alt="Jogo 5" onmouseover="playAudio('audio5')" onmouseout="pauseAudio('audio5')">
+                    <div class="card-body">
+                        <h5 class="card-title">Cai não Cai</h5>
+                        <p class="card-text lead">Retire as varetas sem deixar as bolinhas caírem. Habilidade e sorte são essenciais!</p>
+                    </div>
+                </div>
+                <audio id="audio5">
+                    <source src="audios/cainaocai.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="twister.jpg" class="card-img-top" alt="Jogo 6" onmouseover="playAudio('audio6')" onmouseout="pauseAudio('audio6')">
+                    <div class="card-body">
+                        <h5 class="card-title">Twister</h5>
+                        <p class="card-text lead">Equilibre-se no tapete colorido sem cair. Um jogo físico e cheio de desafios!</p>
+                    </div>
+                </div>
+                <audio id="audio6">
+                    <source src="audios/twister.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="marvel.jpg" class="card-img-top" alt="Jogo 7" onmouseover="playAudio('audio7')" onmouseout="pauseAudio('audio7')">
+                    <div class="card-body">
+                        <h5 class="card-title">Marvel Splendor</h5>
+                        <p class="card-text lead">Colecione heróis e vilões para construir o time mais poderoso da Marvel.</p>
+                    </div>
+                </div>
+                <audio id="audio7">
+                    <source src="audios/marvel.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Scotlandyard.jpg" class="card-img-top" alt="Jogo 8" onmouseover="playAudio('audio8')" onmouseout="pauseAudio('audio8')">
+                    <div class="card-body">
+                        <h5 class="card-title">Scotland Yard</h5>
+                        <p class="card-text lead">Capture Mister X nas ruas de Londres antes que ele escape.</p>
+                    </div>
+                </div>
+                <audio id="audio8">
+                    <source src="audios/sctolandyards.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="catan.jpg" class="card-img-top" alt="Jogo 9" onmouseover="playAudio('audio9')" onmouseout="pauseAudio('audio9')">
+                    <div class="card-body">
+                        <h5 class="card-title">Catan</h5>
+                        <p class="card-text lead">Expanda sua colônia, troque recursos e domine a ilha de Catan.</p>
+                    </div>
+                </div>
+                <audio id="audio9">
+                    <source src="audios/catan.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="tickettoride.jpg" class="card-img-top" alt="Jogo 10" onmouseover="playAudio('audio10')" onmouseout="pauseAudio('audio10')">
+                    <div class="card-body">
+                        <h5 class="card-title">Ticket to Ride</h5>
+                        <p class="card-text lead">Construa trilhos e conecte cidades neste jogo de estratégia ferroviária.</p>
+                    </div>
+                </div>
+                <audio id="audio10">
+                    <source src="audios/tickettoride.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="carcassone.jpg" class="card-img-top" alt="Jogo 11" onmouseover="playAudio('audio11')" onmouseout="pauseAudio('audio11')">
+                    <div class="card-body">
+                        <h5 class="card-title">Carcassonne</h5>
+                        <p class="card-text lead">Monte cidades e estradas medievais com estratégia e planejamento.</p>
+                    </div>
+                </div>
+                <audio id="audio11">
+                    <source src="audios/carcassone.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="codenames.jpg" class="card-img-top" alt="Jogo 12" onmouseover="playAudio('audio12')" onmouseout="pauseAudio('audio12')">
+                    <div class="card-body">
+                        <h5 class="card-title">Codenames</h5>
+                        <p class="card-text lead">Encontre as palavras certas com pistas estratégicas antes do time adversário.</p>
+                    </div>
+                </div>
+                <audio id="audio12">
+                    <source src="audios/codenames.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pandemic.jpg" class="card-img-top" alt="Jogo 13" onmouseover="playAudio('audio13')" onmouseout="pauseAudio('audio13')">
+                    <div class="card-body">
+                        <h5 class="card-title">Pandemic</h5>
+                        <p class="card-text lead">Trabalhe em equipe para conter surtos e salvar o mundo de epidemias.</p>
+                    </div>
+                </div>
+                <audio id="audio13">
+                    <source src="audios/pandemic.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dixit.jpg" class="card-img-top" alt="Jogo 14" onmouseover="playAudio('audio14')" onmouseout="pauseAudio('audio14')">
+                    <div class="card-body">
+                        <h5 class="card-title">Dixit</h5>
+                        <p class="card-text lead">Use sua imaginação para dar pistas e adivinhar cartas ilustradas.</p>
+                    </div>
+                </div>
+                <audio id="audio14">
+                    <source src="audios/dixit.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="azul.jpg" class="card-img-top" alt="Jogo 15" onmouseover="playAudio('audio15')" onmouseout="pauseAudio('audio15')">
+                    <div class="card-body">
+                        <h5 class="card-title">Azul</h5>
+                        <p class="card-text lead">Monte o mosaico perfeito com belos azulejos portugueses.</p>
+                    </div>
+                </div>
+                <audio id="audio15">
+                    <source src="audios/azul.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="7 wonders.jpg" class="card-img-top" alt="Jogo 16" onmouseover="playAudio('audio16')" onmouseout="pauseAudio('audio16')">
+                    <div class="card-body">
+                        <h5 class="card-title">7 Wonders</h5>
+                        <p class="card-text lead">Desenvolva sua civilização e construa maravilhas da antiguidade.</p>
+                    </div>
+                </div>
+                <audio id="audio16">
+                    <source src="audios/7.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="exkittens.jpg" class="card-img-top" alt="Jogo 17" onmouseover="playAudio('audio17')" onmouseout="pauseAudio('audio17')">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploding Kittens</h5>
+                        <p class="card-text lead">Um jogo de cartas caótico onde você tenta evitar os gatos explosivos.</p>
+                    </div>
+                </div>
+                <audio id="audio17">
+                    <source src="audios/Ek.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="splendor.jpg" class="card-img-top" alt="Jogo 18" onmouseover="playAudio('audio18')" onmouseout="pauseAudio('audio18')">
+                    <div class="card-body">
+                        <h5 class="card-title">Splendor</h5>
+                        <p class="card-text lead">Acumule gemas e expanda sua rede comercial para ganhar prestígio.</p>
+                    </div>
+                </div>
+                <audio id="audio18">
+                    <source src="audios/spl.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <script>
+        function playAudio(id) {
+            document.getElementById(id).play();
+        }
+        function pauseAudio(id) {
+            document.getElementById(id).pause();
+            document.getElementById(id).currentTime = 0;
+        }
+    </script>
+</body>
+</html>
